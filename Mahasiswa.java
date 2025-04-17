@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-import java.util.Scanner;
-=======
->>>>>>> 5d376ea3bcdf76dcc009330215aed23d2e127301
 public class Mahasiswa {
     String NIM;
     String nama;
@@ -19,8 +15,15 @@ public class Mahasiswa {
         System.out.println("Prodi: " + prodi);
     }
 
-    String getNim () {
-        return NIM;
+    static void search(Mahasiswa[] mhs, String nim){
+        for (int i = 0; i < mhs.length; i++) {
+            if (mhs[i].NIM.equalsIgnoreCase(nim)) {
+                mhs[i].tampilMahasiswa();
+                break;
+            } else {
+                System.out.println("Data tidak ditemukan");
+            }
+        }
     }
 }
-}
+

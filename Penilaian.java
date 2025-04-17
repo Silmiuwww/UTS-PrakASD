@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-import java.util.Scanner;
-=======
->>>>>>> 5d376ea3bcdf76dcc009330215aed23d2e127301
 public class Penilaian {
     Mahasiswa mahasiswa;
     MataKuliah mataKuliah;
@@ -29,8 +25,17 @@ public class Penilaian {
         System.out.println("Mata Kuliah    : " + mataKuliah.namaMK);
         System.out.println("Nilai Akhir    : " + nilaiAkhir);
     }
-<<<<<<< HEAD
+
+    static void bubblesort(Penilaian[] nilai){
+        for (int i = 0; i < nilai.length-1; i++) {
+            for (int j = 1; j < nilai.length-i; j++) {
+                Penilaian temp;
+                if (nilai[j].nilaiAkhir > nilai[j-1].nilaiAkhir ) {
+                    temp = nilai[j];
+                    nilai[j] = nilai[j-1];
+                    nilai[j-1] = temp;
+                }
+            }
+        }
+    }
 }
-=======
-}
->>>>>>> 5d376ea3bcdf76dcc009330215aed23d2e127301
