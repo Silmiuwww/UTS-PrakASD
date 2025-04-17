@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 import java.util.Scanner;
+=======
+>>>>>>> 5d376ea3bcdf76dcc009330215aed23d2e127301
 public class Penilaian {
     Mahasiswa mahasiswa;
     MataKuliah mataKuliah;
@@ -10,10 +13,13 @@ public class Penilaian {
     public Penilaian(Mahasiswa mahasiswa, MataKuliah mataKuliah, double tugas, double uts, double uas) {
         this.mahasiswa = mahasiswa;
         this.mataKuliah = mataKuliah;
+<<<<<<< HEAD
         this.nilaiTugas = tugas;
         this.nilaiUTS = uts;
         this.nilaiUAS = uas;
 
+=======
+>>>>>>> 5d376ea3bcdf76dcc009330215aed23d2e127301
         hitungNilaiAkhir();
     }
 
@@ -26,4 +32,8 @@ public class Penilaian {
         System.out.println("Mata Kuliah    : " + mataKuliah.namaMK);
         System.out.println("Nilai Akhir    : " + nilaiAkhir);
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 5d376ea3bcdf76dcc009330215aed23d2e127301

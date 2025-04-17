@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 import java.util.Scanner;
+=======
+>>>>>>> 5d376ea3bcdf76dcc009330215aed23d2e127301
 public class MataKuliah {
     String kodeMK;
     String namaMK;
@@ -15,4 +18,8 @@ public class MataKuliah {
         System.out.println("Nama MK : " + namaMK);
         System.out.println("SKS     : " + sks);
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 5d376ea3bcdf76dcc009330215aed23d2e127301
