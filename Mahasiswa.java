@@ -18,12 +18,9 @@ public class Mahasiswa {
         System.out.println("Nama : " + nama);
         System.out.println("Prodi: " + prodi);
     }
-<<<<<<< HEAD
 
     String getNim () {
         return NIM;
     }
 }
-=======
 }
->>>>>>> 5d376ea3bcdf76dcc009330215aed23d2e127301

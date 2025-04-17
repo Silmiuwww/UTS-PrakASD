@@ -13,13 +13,10 @@ public class Penilaian {
     public Penilaian(Mahasiswa mahasiswa, MataKuliah mataKuliah, double tugas, double uts, double uas) {
         this.mahasiswa = mahasiswa;
         this.mataKuliah = mataKuliah;
-<<<<<<< HEAD
         this.nilaiTugas = tugas;
         this.nilaiUTS = uts;
         this.nilaiUAS = uas;
 
-=======
->>>>>>> 5d376ea3bcdf76dcc009330215aed23d2e127301
         hitungNilaiAkhir();
     }
 

@@ -99,43 +99,36 @@ public class Main {
             switch (menu) {
                 case 1:
                     System.out.println("\n=== Daftar Mahasiswa ===");
-<<<<<<< HEAD
                     daftarMahasiswa[0].tampilMahasiswa();
                     System.out.println();
                     daftarMahasiswa[1].tampilMahasiswa();
                     System.out.println();
                     daftarMahasiswa[2].tampilMahasiswa();
-=======
                     m1.tampilMahasiswa();
                     System.out.println();
                     m2.tampilMahasiswa();
                     System.out.println();
                     m3.tampilMahasiswa();
->>>>>>> 5d376ea3bcdf76dcc009330215aed23d2e127301
                     break;
 
                 case 2:
                     System.out.println("\n=== Daftar Mata Kuliah ===");
-<<<<<<< HEAD
                     daftarMK[0].tampilMatakuliah();
                     System.out.println();
                     daftarMK[1].tampilMatakuliah();
                     System.out.println();
                     daftarMK[2].tampilMatakuliah();
-=======
                     mk1.tampilMatakuliah();
                     System.out.println();
                     mk2.tampilMatakuliah();
                     System.out.println();
                     mk3.tampilMatakuliah();
->>>>>>> 5d376ea3bcdf76dcc009330215aed23d2e127301
                     break;
 
                 case 3:
                     System.out.println("\n=== Data Penilaian ===");
                     for (Penilaian p : daftarNilai) {
                         p.tampilNilai();
-<<<<<<< HEAD
                     }
                     break;
 
@@ -149,7 +142,6 @@ public class Main {
                     }
                     break;
                 
-=======
                         System.out.println();
                     }
                     break;
@@ -161,7 +153,6 @@ public class Main {
                         System.out.println(p.mahasiswa.nama + " | " + p.mataKuliah.namaMK + " | Nilai Akhir: " + p.nilaiAkhir);
                     }
                     break;
->>>>>>> 5d376ea3bcdf76dcc009330215aed23d2e127301
 
                 case 5:
                     System.out.print("Masukkan NIM: ");
